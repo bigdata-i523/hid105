@@ -7,7 +7,7 @@
 ```
 owner:
     hid: 105
-    name: Josh Lipe-Melton
+    name: Lipe-Melton, Josh
     url: 
 ```
 
@@ -16,12 +16,13 @@ owner:
 ```
 paper1:
    author: 
-   - Josh Lipe-Melton
+   - Lipe-Melton, Josh
    hid:
    - 105
    title: This is my paper about data visualization in sports
    abstract: This paper showcases the different ways of representing sports big data and what their use cases are
    url: https://github.com/bigdata-i523/sample-hid000/paper1/paper1.pdf
+   type: latex
 ```
    
 # Paper 2
