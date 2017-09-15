@@ -18,13 +18,11 @@ owner:
 ```
 paper1:
    author: 
-   - Gregor von Laszewski
-   - Fugang Wang
+   - Josh Lipe-Melton
    hid:
-   - 000
-   - 001
-   title: This is my paper about xyz
-   abstract: This paper showcases tis and that and the other
+   - 105
+   title: This is my paper about data visualization in sports
+   abstract: This paper showcases the different ways of representing sports big data and what their use cases are
    url: https://github.com/bigdata-i523/sample-hid000/paper1/paper1.pdf
 ```
    
