@@ -8,7 +8,7 @@
 owner:
     hid: 105
     name: Lipe-Melton, Josh
-    url: 
+   url: https://github.com/bigdata-i523/hid105
 ```
 
 # Paper 1
