@@ -4,12 +4,14 @@
 
 # Theory
 
-* 09/14/07 Read and watched all videso in the Theory Introduction section
+* 09/14/17 Read and watched all videos in the Theory Introduction section
+* 09/17/17 Read and watched all videos in the Big Data Overview section
+* 09/21/17 Read and watched all videos in the Big Data Use Cases section
 
 # Practice
 
 * 08/25/17 Enabled Python 2 and 3 via pyenv on OSX
-* 09/14/07 Worked through python exercises
+* 09/14/17 Worked through python exercises
 
 # Writing
 
