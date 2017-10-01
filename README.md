@@ -23,6 +23,7 @@ paper1:
    abstract: This paper showcases the different ways of representing sports big data and what their use cases are
    url: https://github.com/bigdata-i523/sample-hid000/paper1/paper1.pdf
    type: latex
+   chapter: Sports
 ```
    
 # Paper 2
