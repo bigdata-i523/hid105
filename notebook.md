@@ -18,5 +18,7 @@
 # Writing
 * 09/28/17 Identified resources for paper 1
 * 10/03/17 Began typing paper 1
-
+* 10/06/17 Continued paper 1
+* 10/07/17 Continued paper 1
+* 10/08/17 Finished typing paper 1
 
