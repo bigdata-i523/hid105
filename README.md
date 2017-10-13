@@ -24,7 +24,7 @@ paper1:
    url: https://github.com/bigdata-i523/sample-hid000/paper1/paper1.pdf
    type: latex
    chapter: Sports
-   status: 100% (has been done since October 8)
+   status: 100%
 ```
    
 # Paper 2
