@@ -21,4 +21,5 @@
 * 10/06/17 Continued paper 1
 * 10/07/17 Continued paper 1
 * 10/08/17 Finished typing paper 1
-
+* 10/11/17 Found resources for paper 2
+* 10/12/17 Began typing paper 2
