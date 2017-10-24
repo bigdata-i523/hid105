@@ -4,8 +4,7 @@ owner:
     name: Lipe-Melton, Josh
     url: https://github.com/bigdata-i523/hid105
 paper1:
-    abstract: This paper showcases the different ways of representing sports big data
-        and what their use cases are
+    abstract: We discuss the different use cases of sports data visualization
     author:
         - Lipe-Melton, Josh
     chapter: Sports
