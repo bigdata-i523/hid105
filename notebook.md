@@ -23,3 +23,7 @@
 * 10/08/17 Finished typing paper 1
 * 10/11/17 Found resources for paper 2
 * 10/12/17 Began typing paper 2
+* 10/15/17 Continued typing paper 2
+* 10/18/17 Continued writing paper 2
+* 10/19/17 Edited paper 1
+* 10/25/17 Finished editing paper 1, final submission entered
