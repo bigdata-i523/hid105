@@ -15,6 +15,7 @@ paper1:
     type: latex
     url: https://github.com/bigdata-i523/sample-hid000/paper1/paper1.pdf
 paper2:
+    review: Nov 6 2017
     abstract: This paper showcases tis and that and the other
     author:
         - Gregor von Laszewski
