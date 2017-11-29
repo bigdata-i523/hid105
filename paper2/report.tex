@@ -1,19 +1,36 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
+\documentclass[sigconf]{acmart}
 
-\title{Big Data Applications in Team Sports Predictive Analytics}
-\author{Josh Lipe-Melton}
-\date{October 2017}
-
-\usepackage{natbib}
-\usepackage{graphicx}
+\input{format/i523}
 
 \begin{document}
+\title{Big Data in Sports Visualization}
+
+
+\author{Josh Lipe-Melton}
+\orcid{1234-5678-9012}
+\affiliation{%
+  \institution{Indiana University}
+  \streetaddress{4400 E Sheffield Dr}
+  \city{Bloomington} 
+  \state{Indiana} 
+  \postcode{47408}
+}
+\email{jlipemel@umail.iu.edu}
+
+\renewcommand{\shortauthors}{J. Lipe-Melton}
+
+
+\begin{abstract}
+We discuss Big Data Analytics in ''other sports'' (not baseball) and how it is being used to improve and evaluate performance via visualization of sports data
+\end{abstract}
+
+\keywords{sports, analytics, neural network, HID105, I523}
+
 
 \maketitle
 
 \section{Introduction}
-The sports industry produces a lot of money, and as such, analysis of sporting events has become increasingly explored field. As technology improves, more and more data is generated regarding sporting events. Therefore, there have been numerous attempts to create functions that predict the outcomes of sporting events. Many efforts attempt to create neural networks to model these outcomes. Others use genetic pruning algorithms. Others break sporting events down into possessions and create a ''per possession'' model to predict the points scored by each competing party. Still more use a combination of all of these. By using various statistics, the results of a significant number of games can be predicted.
+The sports industry produces a lot of money, and as such, analysis of sporting events has become increasingly explored field. As technology improves, more and more data is generated regarding sporting events. Therefore, there have been numerous attempts to create functions that predict the outcomes of sporting events. Many efforts attempt to create neural networks to model these outcomes. Others use genetic pruning algorithms. Others break sporting events down into possessions and create a per possession model to predict the points scored by each competing party. Still more use a combination of all of these. By using various statistics, the results of a significant number of games can be predicted.
 
 
 
@@ -24,7 +41,7 @@ Arguably the most common method of predicting the results of soccer games is to 
 \centering
 \includegraphics[scale=.2]{Features.png}
 \caption{Features of Expected Goals Model}
-\label{fig:Features of Expected Goals Model}
+\label{fig: Features of Expected Goals Model}
 \end{figure}
 
 \subsection{Bivariate Expected Goals Model}
@@ -47,14 +64,14 @@ In college basketball, the committee that decides who gets into the NCAA tournam
 This formula has significant influence on where teams are ranked. Unfortunately, ''the RPI lacks theoretical justification from a statistical standpoint.'' \cite{RPI} In general, it is believed that the model places too much emphasis on strength of schedule and not enough on performance. Attempts to utilize an improved version of this model have made an impact on seeding in college soccer and baseball as well. In these sports, wins are weighted to give more ranking points to an away win than a home win.\cite{RPI} These types of alterations, however, do not address the fact that 75 percent of this ranking comes from a team's strength of schedule. This type of bias favors teams that are in strong conferences, even if they have poor records in their conference. 
 
 \subsection{Per Possession Analysis}
-A proposed alternative to RPI is to use a ''per possession model,'' or a model that predicts outcomes using statistics that are used in the context of efficiency with possessions. For example, offensive efficiency is found by dividing points scored by possessions and defensive efficiency is found by dividing points allowed by possessions citation\cite{PerPossession}. These statistics are then used to calculate an offensive efficiency adjusted by the perceived strength of the opponent. Adjusted offensive efficiency, for example, is calculated by multiplying offensive efficiency by the average national offensive efficiency then dividing this number by the adjusted defensive efficiency of an opponent citation. By combining these adjusted efficiencies with other factors such as home court advantage, the authors made several models which created an estimation for ''win probability,'' which can in turn be used to predict individual match outcomes or create a ranking system. By using win probability, the study we examine created models based on decision trees, rule learners, artificial neural networks, naive Bayes, and ensemble learners citation. The neural network and naive Bayes models were the most effective models, both predicting outcomes with about 72 percent accuracy. A surprising observation from the authors is that simpler models tend to work better than more complicated ones citation. Similarly, attempting to incorporate more features into the models tended to decrease predictive accuracy citation. The authors believe that there is a "glass ceiling" when it comes to accuracy predicting sporting events of around 74 percent citation. Each of these models is unable to predict any individual season at a rate greater than 74 percent.
+A proposed alternative to RPI is to use a ''per possession model,'' or a model that predicts outcomes using statistics that are used in the context of efficiency with possessions. For example, offensive efficiency is found by dividing points scored by possessions and defensive efficiency is found by dividing points allowed by possessions citation\cite{PerPossession}. These statistics are then used to calculate an offensive efficiency adjusted by the perceived strength of the opponent. Adjusted offensive efficiency, for example, is calculated by multiplying offensive efficiency by the average national offensive efficiency then dividing this number by the adjusted defensive efficiency of an opponent citation. By combining these adjusted efficiencies with other factors such as home court advantage, the authors made several models which created an estimation for ''win probability,'' which can in turn be used to predict individual match outcomes or create a ranking system. By using win probability, the study we examine created models based on decision trees, rule learners, artificial neural networks, naive Bayes, and ensemble learners citation. The neural network and naive Bayes models were the most effective models, both predicting outcomes with about 72 percent accuracy. A surprising observation from the authors is that simpler models tend to work better than more complicated ones citation. Similarly, attempting to incorporate more features into the models tended to decrease predictive accuracy citation. The authors believe that there is a ''glass ceiling'' when it comes to accuracy predicting sporting events of around 74 percent citation. Each of these models is unable to predict any individual season at a rate greater than 74 percent.
 
 \section{Conclusion}
-Basic statistics are being used in all sorts of analysis of sporting events. Advances in machine learning make it possible to create highly effective models to predict the outcomes of sporting events based on past performances. One model examined used numerous statistics as inputs to predict the number of goals scored by a certain team, and barely predicted results better than random selection. Another used advanced statistics based ''pace of play'' and the efficiency of each team involved. Using these statistics, the authors concluded that simplest models worked best, and predicted the results of games correctly about 72 percent of the time. Finally, a model that used simple inputs, the previous few results of either teams, into a neural network provided stunning accuracy in predicting the results of games. This reinforces the notion that simple inputs, especially those involving neural networks, provide the greatest accuracy in predicting the outcome of sporting events.
+Basic statistics are being used in all sorts of analysis of sporting events. Advances in machine learning make it possible to create highly effective models to predict the outcomes of sporting events based on past performances. One model examined used numerous statistics as inputs to predict the number of goals scored by a certain team, and barely predicted results better than random selection. Another used advanced statistics based on pace of play and the efficiency of each team involved. Using these statistics, the authors concluded that simplest models worked best, and predicted the results of games correctly about 72 percent of the time. Finally, a model that used simple inputs, the previous few results of either teams, into a neural network provided stunning accuracy in predicting the results of games. This reinforces the notion that simple inputs, especially those involving neural networks, provide the greatest accuracy in predicting the outcome of sporting events.
 
 \section{Acknowledgements}
 I would like to thank Dr. Gregor von Laszewski and Juliette Zerick for providing valuable feedback on my paper
 
-\bibliographystyle{plain}
+\bibliographystyle{ACM-Reference-Format}
 \bibliography{references}
 \end{document}
