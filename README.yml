@@ -34,9 +34,8 @@ project:
         - 105
     title: TBD
     abstract: >
-        We showcase tis and that and the other
-        and another line.
-    url: https://github.com/bigdata-i523/sample-hid000/project/
+        We showcase a model for predicting the results of soccer matches based on a successful model examined in paper 2
+    url: https://github.com/bigdata-i523/hid105/project/
     type: project
     status: Dec 04 17 0%
-chapter: TBD
+    chapter: sports
