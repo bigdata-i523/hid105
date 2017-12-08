@@ -32,7 +32,7 @@ project:
         - Lipe-Melton, Josh
     hid:
         - 105
-    title: TBD
+    title: Predictive Model For English Premier League Games
     abstract: >
         We showcase a model for predicting the results of soccer matches based on a successful model examined in paper 2
     url: https://github.com/bigdata-i523/hid105/project/
