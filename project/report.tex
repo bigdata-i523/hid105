@@ -6,11 +6,13 @@
 
 \begin{document}
 
-\maketitle
-
 \begin{abstract}
 We discuss a model for predicting the outcome of soccer matches based on the previous matches played by each team. The model we produce is based on a model discussed in a previous paper, which claims to predict match results extremely accurately based on the previous two meetings between the teams and the previous five matches between the teams. While the model we based the project on used a genetic tuning algorithm combined with a neural network, we attempted to use a multivariate regression model and a more basic neural network model, both from the sklearn package.
 \end{abstract}
+
+\keywords{sports, analytics, predictive, neural network, HID105, I523}
+
+\maketitle
 
 \section{Introduction}
 Prediction of sporting events is an extremely difficult problem due to the enormous number of factors involved and the unpredictability of those factors. While a lot of data about sports is generated, it is still extremely difficult to create models which account for every factor involved. In the model we attempt to imitate, a match's result is hypothesized to be predictable based on the last five matches each team has played and the last two matches between the teams. The model we imitated created a three layer neural network using these features, and was initiated with weights created by a genetic tuning algorithm. The model we use loads data on the English Premier League, England's highest league and arguably the best league in the world. Using this data, we create features for each match based on the previous games played by those teams. In this way, we attempt to circumvent far more complicated methods of analyzing sports such as per possession models or spatial recognition and player tracking software. Common thought among soccer players indicates that a team's 'form', or how well they have played in their last five matches, is a significant indicator of how well a team will do in their next match. Similarly, it seems to follow common sense that if team 1 has beaten team 2 the previous two times they have played, that team 1 is likely to beat team 2 again the next time they play. 
