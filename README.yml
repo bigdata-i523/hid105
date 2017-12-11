@@ -16,7 +16,9 @@ paper1:
     url: https://github.com/bigdata-i523/hid105/blob/master/paper1/report.tex
 paper2:
     review: Nov 6 2017
-    abstract: This paper showcases various models used in predictive analytics of sporting events
+    abstract: >
+        This paper showcases various models used in predictive
+        analytics of sporting events
     author:
         - Lipe-Melton, Josh
     hid:
@@ -34,7 +36,8 @@ project:
         - 105
     title: Predictive Model For English Premier League Games
     abstract: >
-        We showcase a model for predicting the results of soccer matches based on a successful model examined in paper 2
+        We showcase a model for predicting the results of soccer matches
+        based on a successful model examined in paper 2
     url: https://github.com/bigdata-i523/hid105/project/
     type: project
     status: Dec 05 17 100%
