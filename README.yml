@@ -12,7 +12,6 @@ paper1:
         - 105
     status: 100% October 27, 2017
     title: This is my paper about data visualization in sports
-    type: latex
     url: https://github.com/bigdata-i523/hid105/blob/master/paper1/report.tex
 paper2:
     review: Nov 6 2017
@@ -25,7 +24,6 @@ paper2:
         - 105
     status: 100% November 6, 2017
     title: Predictive Analytics in Sporting Match Outcomes
-    type: latex
     url: https://github.com/bigdata-i523/hid105/blob/master/paper2/report.tex
     chapter: Sports
 project:
